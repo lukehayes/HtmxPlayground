@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>HTMX</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="js/htmx.min.js"></script>
 </head>
 <body>
