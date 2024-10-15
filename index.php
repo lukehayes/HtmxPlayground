@@ -6,7 +6,11 @@ require "vendor/autoload.php";
 $router = new \Bramus\Router\Router();
 
 // Define routes
-$router->match('GET|POST', '/', function() {
+$router->match('GET', '/', function() {
+    echo "Home";
+});
+
+$router->match('GET|POST', '/user', function() {
     require_once 'views/index.php';
 });
 
